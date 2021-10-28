@@ -2,10 +2,10 @@
   NODE_VERSION = "14"
 
 [build]
-  publish = "slidev/dist"
+  publish = "dist"
   command = "npm run build"
 
 [[redirects]]
   from = "/*"
-  to = "/slidev/dist/index.html"
+  to = "/dist/index.html"
   status = 200
