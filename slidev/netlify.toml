@@ -2,10 +2,10 @@
   NODE_VERSION = "14"
 
 [build]
-  publish = "dist"
+  publish = "micro-frontend-practice/slidev/dist"
   command = "npm run build"
 
 [[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "/micro-frontend-practice/slidev/dist/index.html"
   status = 200
