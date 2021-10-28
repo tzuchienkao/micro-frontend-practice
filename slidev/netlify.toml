@@ -7,5 +7,5 @@
 
 [[redirects]]
   from = "/*"
-  to = "/dist"
+  to = "/index.html"
   status = 200
