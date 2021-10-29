@@ -4,7 +4,7 @@
     "build": "slidev build",
     "dev": "slidev --open",
     "export": "slidev export",
-    "pub": "slidev build --base /micro-frontend-practice && cp dist/index.html && gh-pages -d dist"
+    "pub": "slidev build --base /slidev && cp dist/index.html && gh-pages -d dist"
   },
   "dependencies": {
     "@slidev/cli": "^0.27.9",
