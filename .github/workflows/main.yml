@@ -8,10 +8,12 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
+      - name: Slidev
+        run: cd slidev
       - name: Install dependencies
         run: npm install
       - name: Build
-        run: npm run pub
+        run: npm run build
       - name: Deploy pages
         uses: crazy-max/ghaction-github-pages@v2
         with:
