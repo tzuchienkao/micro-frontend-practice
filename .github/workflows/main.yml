@@ -9,4 +9,4 @@ jobs:
         with:
           node-version: '14'
       - name: Build
-        run: npm run build
+        run: npm run build && ls
