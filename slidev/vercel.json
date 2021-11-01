@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    { "source": "/(.*)", "destination": "/micro-frontend-practice/index.html" }
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }

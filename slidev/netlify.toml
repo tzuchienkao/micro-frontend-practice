@@ -7,5 +7,5 @@
 
 [[redirects]]
   from = "/*"
-  to = "/micro-frontend-practice/index.html"
+  to = "/index.html"
   status = 200
