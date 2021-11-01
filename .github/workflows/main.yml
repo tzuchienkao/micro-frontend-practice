@@ -9,4 +9,4 @@ jobs:
         with:
           node-version: 14
       - name: Build
-        run: npm run build && cp -a dist/. public/
+        run: npm run build && cp -a slidev/dist/. public
