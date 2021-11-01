@@ -11,4 +11,8 @@ jobs:
       - name: Build
         run: npm run build
       - name: Public
-        run: cp -a slidev/dist/. public && ls
+        run: cp -a slidev/dist/. public && cd public
+      - name: Deploy pages
+        uses: crazy-max/ghaction-github-pages@v2
+        with:
+          build_dir: public
