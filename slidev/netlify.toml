@@ -7,5 +7,5 @@
 
 [[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "/micro-frontend-practice/slidev/index.html"
   status = 200
