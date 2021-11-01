@@ -15,4 +15,4 @@ jobs:
       - name: Deploy pages
         uses: crazy-max/ghaction-github-pages@v2
         with:
-          build_dir: micro-frontend-practice/slidev/dist
+          build_dir: slidev/dist
