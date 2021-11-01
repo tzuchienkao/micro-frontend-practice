@@ -11,4 +11,4 @@ jobs:
       - name: Build
         run: npm run build
       - name: Public
-        run: cp -a slidev/dist/. slidev/public/ && ls
+        run: cp -a slidev/dist/. public && ls
