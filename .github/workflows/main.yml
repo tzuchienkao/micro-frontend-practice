@@ -10,7 +10,3 @@ jobs:
           node-version: '14'
       - name: Build
         run: npm run build
-      - name: Deploy pages
-        uses: crazy-max/ghaction-github-pages@v2
-        with:
-          build_dir: micro-frontend-practice/slidev/dist
