@@ -11,4 +11,5 @@ jobs:
       - name: Build
         run: npm run build
       - name: Public
+        run: ls
         run: cp -a micro-frontend-practice/slidev/dist/. micro-frontend-practice/slidev/public/
