@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "build": "cd slidev && npm install && npm run build"
+    "build": "cd slidev && npm install && npm run pub"
   },
   "name": "slidev"
 }
